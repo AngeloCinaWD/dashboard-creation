@@ -11,6 +11,7 @@ import { SalesByCategoryComponent } from './components/sales-by-category/sales-b
 import { LastFewTransactionsComponent } from './components/last-few-transactions/last-few-transactions.component';
 import { TopThreeProductsComponent } from './components/top-three-products/top-three-products.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ChartModule } from 'angular-highcharts';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   ],
   imports: [
     BrowserModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    ChartModule
   ],
   providers: [],
   bootstrap: [AppComponent]
